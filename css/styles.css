@@ -1,0 +1,235 @@
+/*
+author: Jogesh Ghadai
+created on: 5th March, 2023
+*/
+
+*{
+    list-style: none;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #B3E5BE;
+    border-width: 6px;
+    width: 4%;
+    padding: 20px;
+}
+
+h1{
+    color: #40513B;
+    padding-top: 85px;
+    font-size: xx-large;
+    font-family: 'Shantell Sans', cursive;
+}
+
+h2{
+    color: #40513B;
+    font-family: cursive;
+}
+
+p{
+    color: #609966;
+    font-family: 'Shantell Sans', cursive;
+}
+
+input{
+    background-color: #EDF1D6;
+    border: 1px solid #40513B;
+    border-radius: 4px;
+}
+
+input[type=submit] {
+    color: #ffffff;
+    background-color: #5D9C59;
+    border-radius: 5px;
+    border:none;
+    padding: 6px;
+}
+
+input:hover[type=submit] {
+    color: #000000;
+    background-color: #5e9c59a9;
+}
+
+textarea{
+    background-color: #EDF1D6;
+    border: 1px solid #40513B;
+    border-radius: 4px;
+}
+
+body{
+    background-image: url(./../images/main_background3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+a{
+    color: #609966;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #606466;
+}
+
+* {box-sizing:border-box}
+
+.header-container {
+    background-image: url(./../images/background2.png);
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    position: relative;
+    margin: auto;
+    padding: 40px;
+}
+
+.whole-container {
+    background-color: #EDF1D6;
+    border-radius: 4px;
+    max-width: 1200px;
+    height: auto;
+    position: relative;
+    margin: auto;
+    padding: 20px;
+}
+
+.slideshow-container {
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    height: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: #AD8E70;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+
+header {
+    background-color: #EDF1D6;
+    height: 62px;
+}
+
+nav {
+    height: 60px;
+    background-color: #205058;
+    border-radius: 5px;
+}
+
+.logo {
+    padding: 10px;
+    width: auto;
+    float: left;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.list-item {
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.list-item li {
+    float: left;
+    padding: 10px 10px;
+    font-family:cursive;
+    font-size: 14px;
+    border-radius: 2px;
+    transition: all .7s ease-in-out;
+}
+
+.list-item li a {
+    color: #EDF1D6;
+}
+
+.list-item li a:hover {
+    color: #40513B;
+}
+
+.list-item li:hover {
+    background-color: #B3E5BE;
+}
+
+.icon {
+    display: none;
+}
